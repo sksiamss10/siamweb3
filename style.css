@@ -1,7 +1,5 @@
 *{margin:0;padding:0;box-sizing:border-box;list-style:none;text-decoration:none;font-family:Inter,sans-serif;color:#fff}
-::-webkit-scrollbar{display:none}
-::-moz-scrollbar{display:none}
-body{width:100%;height:100vh;background:#222;overflow:hidden}
+body{width:100%;height:100vh;background:#222;overflow-x:hidden}
 nav{margin-top:.8%;width:100%;height:14vh;display:flex;align-items:center;justify-content:space-between;padding:0 1rem}
 nav .logo img{width:170px}
 nav ul{margin-right:1.2rem}
@@ -24,6 +22,7 @@ nav{flex-direction:column;width:100%;padding:0;margin-bottom:2%}
 .logo img{margin-bottom:1%;width:200px!important}
 nav ul{width:100%;margin:0 auto;text-align:center}
 nav ul li{margin:.5rem}
+#hr-style{text-align:center!important;margin:.5rem auto;width:300px}
 #moonPic{width:320px;margin-bottom:3%}
 #moonAbout{text-align:center}
 #moonheading{letter-spacing:2px}
